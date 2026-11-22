@@ -1,26 +1,21 @@
-# 50/AGENTS LAB — AI 트레이딩 리서치 웹페이지
+# idatsy — 50 Agents, One Trader
 
-한 파일(`index.html`)로 작동하는 반응형 한국어 웹사이트입니다. 별도 빌드, 외부 라이브러리, API 키 없이 실행됩니다.
+idatsy(Stef)의 고빈도 시스템 트레이딩과 Frontier Traders 대회 기록, 50개 AI 에이전트의 운용 정황, X 및 공개 코드에서 찾은 매매 기술 단서를 정리한 한국어 리서치 웹페이지입니다.
 
-## 로컬에서 보기
+## 웹페이지
 
-`index.html` 파일을 브라우저로 열면 됩니다. 링크 복사 기능은 HTTPS 호스팅 환경에서 원활히 작동합니다.
+https://kizmo04.github.io/idatsy-agent-guide/
 
-## GitHub Pages 무료 배포
+## 구성
 
-1. GitHub에서 새 **Public** 저장소를 만듭니다 (예: `idatsy-agent-guide`).
-2. 이 폴더의 `index.html`을 저장소 최상위에 업로드하고 커밋합니다.
-3. 저장소 **Settings → Pages → Build and deployment**에서 `Deploy from a branch`를 선택합니다.
-4. Branch `main`, Folder `/ (root)`를 선택하고 저장합니다.
-5. 배포가 완료되면 `https://<GitHub-사용자명>.github.io/idatsy-agent-guide/` 주소를 공유할 수 있습니다.
+- 시즌 거래량·거래 횟수·승률과 집계 시점에 대한 설명
+- 50개 AI 에이전트 관련 공식 중계 시간별 증거
+- 온라인 시즌 시스템 트레이딩과 런던 결승 AI 사용 불가 상황의 구분
+- 마켓메이킹, 유동성 차이 활용, 초단기 방향성 매매 가설 및 한계
+- HighLoad, GitHub, Gist, X에서 확인한 기술적 단서
+- 가능한 에이전트 운용 유형을 비교하는 인터랙티브 탭
+- 원본 근거 링크와 확인·추정·미공개 상태 구분
 
-## 다른 무료 정적 호스팅
+이 사이트는 순수 HTML/CSS/JavaScript 정적 웹사이트입니다. 빌드 없이 GitHub Pages에서 사용할 수 있습니다.
 
-Cloudflare Pages의 Direct Upload 또는 Netlify의 드래그 앤 드롭 배포를 이용할 수도 있습니다. 무료 이용 조건과 URL은 각 서비스 정책에 따릅니다.
-
-## 유의사항
-
-- 대회 중 AI 사용 불가 발언은 영어 자동자막을 기준으로 기록했습니다.
-- idatsy의 50개 에이전트 코드와 매매 전략은 공개 검증되지 않았습니다.
-- BTC 사례와 수수료 계산기의 수치는 이해를 위한 예시입니다.
-- 투자 조언이나 성과 보증이 아닙니다.
+**중요:** 비공개 매매 전략이나 수익률이 확인된 것처럼 서술하지 않습니다. 공식 영상 관련 인용은 영어 자동자막을 기준으로 합니다. 투자 권유 자료가 아닙니다.
